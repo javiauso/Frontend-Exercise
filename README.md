@@ -40,4 +40,4 @@ Sure to follow the [SUIT](https://suitcss.github.io/) convention when working wi
 
 
 ### GH-Page
-http://javiauso.github.io
+https://javiauso.github.io/Frontend-Exercise/
