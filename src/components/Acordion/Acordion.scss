@@ -1,0 +1,11 @@
+.Acordion {
+  max-width: 900px;
+  width: 100%;
+  margin: 0 30px 30px;
+  background-color: $primary-color;
+  border-radius: 7px;
+
+  .Acordion-content {
+    padding: 16px;
+  }
+}

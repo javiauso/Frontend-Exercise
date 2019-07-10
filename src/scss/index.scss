@@ -1,0 +1,19 @@
+// General:
+@import "./general/reset";
+@import "./general/colors";
+// Components:
+@import "../components/App";
+@import "../components/Acordion/Acordion";
+@import "../components/Acordion/Panel/Panel";
+@import "../components/Bonus/Bonus";
+
+html {
+    background-color: $secondary-color;
+    font-family: Verdana,arial,serif;
+    color: $text-color;
+    height: 100vh;
+
+    > * {
+        box-sizing: border-box;
+    }
+}

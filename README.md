@@ -22,11 +22,22 @@ Sure to follow the [SUIT](https://suitcss.github.io/) convention when working wi
 ```
 
 ### Conditions
-* Use Sass for generate CSS
-* Use ES6
-* Use only Vanilla JS, without any JS framework
-* Generate gh-page for publish
+* :heavy_check_mark: Use Sass for generate CSS
+* :heavy_check_mark: Use ES6
+* :heavy_check_mark: Use only Vanilla JS, without any JS framework
+* :heavy_check_mark: Generate gh-page for publish
 
 
 ### Bonus
-* Add new section with Ajax content
+* :heavy_check_mark: Add new section with Ajax content
+
+
+### Tasks
+
+**Run in local**: npm start
+**Build for develop**: npm run build
+**Build for production**: npm run build-prod
+
+
+### GH-Page
+http://javiauso.github.io

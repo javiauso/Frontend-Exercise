@@ -1,0 +1,39 @@
+.Panel {
+  background-color: $primary-color;
+  margin-bottom: 8px;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+
+  &.is-opened {
+    .Panel-header {
+      border-radius: 7px 7px 0 0;
+    }
+
+    .Panel-body {
+      opacity: 1;
+      position: inherit;
+      min-height: 60px;
+      height: 100%;
+    }
+  }
+
+  .Panel-header {
+    cursor: pointer;
+    background-color: $medium-green;
+    padding: 12px 20px;
+    border-radius: 7px;
+  }
+
+  .Panel-body {
+    background: $terciary-color;
+    transition: all 0.3s ease;
+    position: absolute;
+    top: -10000px;
+    opacity: 0;
+    height: 0;
+    padding: 12px 20px 16px;
+    border-radius: 0 0 7px 7px;
+  }
+}

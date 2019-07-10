@@ -3,7 +3,7 @@
     {
       "id": "bonus",
       "title": "Bonus!",
-      "bodyText": "Esta es la sección bonus cargada por AJAX"
+      "bodyText": "Esta es la sección bonus con contenido cargado por AJAX"
     }
   ],
   "profile": {

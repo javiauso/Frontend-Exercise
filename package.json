@@ -1,0 +1,44 @@
+{
+  "name": "Frontend-Exercise",
+  "version": "1.0.0",
+  "private": true,
+  "description": "With the next markup, you must create an accordion (JS / CSS) show only the contents of a section at a time.\r Sure to follow the [SUIT](https://suitcss.github.io/) convention when working with CSS.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open --config=webpack/webpack.config.js --env.development=true",
+    "build": "webpack --config=webpack/webpack.config.js --env.development=true",
+    "build-prod": "webpack --config=webpack/webpack.config.js --env.production=true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javiauso/Frontend-Exercise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/javiauso/Frontend-Exercise/issues"
+  },
+  "homepage": "https://github.com/javiauso/Frontend-Exercise#readme",
+  "devDependencies": {
+    "@babel/core": "^7.5.0",
+    "@babel/preset-env": "^7.5.3",
+    "babel-loader": "^8.0.6",
+    "core-js": "^3.1.4",
+    "css-loader": "^3.0.0",
+    "eslint": "^6.0.1",
+    "eslint-loader": "^2.2.1",
+    "file-loader": "^4.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.7.0",
+    "node-sass": "^4.12.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
