@@ -1,0 +1,12 @@
+{
+  "page": [
+    {
+      "id": "bonus",
+      "title": "Bonus!",
+      "bodyText": "Esta es la sección bonus cargada por AJAX"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
