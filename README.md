@@ -34,11 +34,11 @@ Sure to follow the [SUIT](https://suitcss.github.io/) convention when working wi
 
 ### Tasks
 
-**First, install dependencies:** npm install
+* **First, install dependencies:** npm install
 
-**Run in local**: npm start
-**Build for develop**: npm run build
-**Build for production**: npm run build-prod
+* **Run in local**: npm start
+* **Build for develop**: npm run build
+* **Build for production**: npm run build-prod
 
 
 ### GH-Page
